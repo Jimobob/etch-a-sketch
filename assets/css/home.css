@@ -1,0 +1,26 @@
+:root{
+	--columnNumber: 16;
+}
+
+h1{
+	text-align: center;
+}
+
+#buttons{
+	text-align: center;
+}
+
+#container{
+	display: grid;
+	grid-template-columns: repeat(var(--columnNumber), 1fr);
+	margin: 0 auto;
+	height: 500px;
+	width: 500px;
+	border: 2px solid;
+}
+
+.gridCell{
+	display: inline-block;
+	background-color: white;
+	border: 0.5px solid;
+}
